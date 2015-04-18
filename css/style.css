@@ -1,0 +1,135 @@
+body {font-family: Verdana, sans-serif; font-size:0.8em; margin-left:0;margin-top:8%;padding: 0}
+
+nav, footer,article
+{/* border:1px solid grey; */ margin:1px; padding:8px;}
+
+section
+{/* border:1px solid grey ;*/ 
+	margin-left: auto;
+    margin-right: auto;
+    width: 60%;}
+/* section, nav, footer, article, aside{background-color:#FFFFFF;} */
+/* header{background-color:#E6E6E6; height:20%} */
+a img{
+	width:100px;
+	height:100px;
+	float: left;
+}
+.header-cont{width:100%; position:fixed;top:0px;background-color:#E6E6E6; height:10%}
+.header-cont img{
+height: 70px;
+width:200px
+}
+.imgNewsAuthor{ 
+	margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	padding:2%
+}
+.imgAuthorIndex{ 
+	margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+	height:30px;
+	padding:0
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #b0e0e6;
+}
+.sidebar-left {
+	 /* border:1px solid grey; */
+	padding:0;
+    float: left;
+	width:auto;
+	margin-left:2%;
+	/* height:900px; */
+}
+.sidebar-right {
+	/* border:1px solid grey; */  
+	padding:8px;
+    float: right;
+	width:20%;
+	height:600px;
+}
+.clear {clear:both;}
+.newsDate{
+	font-size:0.7em;
+	color: #6E6E6E;
+	font-weight: bold;
+}
+.newsTitle{
+	font-size:1.5em;
+	color:#08298A;
+	text-decoration: none;
+}
+.newsTitle:hover{
+	font-size:1.6em;
+	color: red;
+}
+.newsSnippet{
+	font-weight: bold;
+}
+.newsBox{
+	height: 120px;
+    padding: 10px;
+    /* border: 1px solid gray; */
+    margin: 0;
+	overflow:hidden;
+}
+.newsBox:hover{
+	height: 220px;
+    padding: 10px;
+    /* border: 1px solid gray; */
+    margin: 0;
+	overflow:hidden;
+}
+.logo img{
+height: 70px;
+width:200px
+}
+
+/* Index page style */
+
+.newsBoxSummary{
+	height: 50px;
+    padding:0;
+    /* border: 1px solid gray; */
+    margin: 0;
+	overflow:hidden;
+}
+/* .newsBoxSummary:hover{
+	height: 80px;
+    padding:0;
+    border: 1px solid gray; 
+    margin: 0;
+	overflow:hidden;
+} */
+.sourceBox{
+	font-size:0.8em;
+	height: 400px;
+    padding:0;
+    /* border: 1px solid gray; */
+    margin: 0;
+	overflow:hidden;
+	border-bottom: 1px solid #E6E6E6;
+}
+.sourceBox:hover{
+	height: auto;
+    padding:0;
+    /* border: 1px solid gray; */
+    margin: 0;
+	overflow:hidden;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+
+
+
+
+
+
+
+

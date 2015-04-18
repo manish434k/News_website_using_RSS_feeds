@@ -1,0 +1,13 @@
+$xml=simplexml_load_file("feedsource.xml") or die("Error: Cannot create object");
+foreach($xml->feed as $feeds){
+	echo '<div class="row">';
+	echo '<a href="#hide1" class="hide" id="hide1">'.$feeds['category'].'<link href="index.php" /></a>';
+	echo '<a href="#show1" class="show" id="show1">'.$feeds['category'].'</a>';
+	echo '<div class="list">';
+	echo '<ul>';
+	foreach($feeds->source as $sources){
+		echo'<li><a href="timesofindia.php" >'.$sources.'</a></li>';
+	}
+ echo'</ul> </div> </div>';
+ } 
+
